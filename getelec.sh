@@ -3,10 +3,9 @@
 source /etc/profile
 
 date=$(date +%F)
-maillist="cx8508@gmail.com 13950137793@139.com"
-#qlhuang1985@gmail.com 15859292952@139.com
-#maillist="13950137793@139.com"
-roomno="07010310"
+maillist="test@gmail.com"
+
+roomno="11111111"
 
 wget -q "http://elec.xmu.edu.cn/power.asp?RoomCode=$roomno&StartDate=$date&EndDate=$date&R=0.$RANDOM" -O elec_$date
 
